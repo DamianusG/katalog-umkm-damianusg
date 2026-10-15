@@ -96,11 +96,13 @@ Pengerjaan **US-01 (Katalog dari database)** telah selesai.
 
 ## US-02 Detail produk
 
-**Prompt:**
+**Prompt:** Baca docs/user-stories.md bagian US-02.
 
-**Hasil:**
+Ubah app/produk/[id]/page.jsx supaya mengambil satu produk dari tabel "produk" di Supabase berdasarkan id di URL, di sisi server, memakai koneksi Supabase yang sudah dibuat di lib/supabase. Kalau produk tidak ditemukan, panggil notFound(). Jangan ubah tampilannya. Hapus CatatanBelumAktif dari halaman ini, tapi biarkan tombol WhatsApp.
 
-**Perbaikan:**
+**Hasil:** Produk Detail ditampilkan sesuai dengan supabase. test perubahan data di supabase menyebabkan perubahan langsung pada aplikasi di lokal.
+
+**Perbaikan:** app/produk/[id]/page.jsx
 
 ## US-03 Pesan via WhatsApp
 
